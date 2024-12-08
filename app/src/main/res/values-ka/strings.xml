@@ -381,6 +381,7 @@
     <string name="filename_forbidden_charaters_from_server">Filename contains at least one invalid character</string>
     <string name="filename_hint">Filename</string>
     <string name="first_run_1_text">Keep your data secure and under your control</string>
+    <string name="first_run_1_text_1">Collaboration has never been so simple</string>
     <string name="folder_already_exists">Folder already exists</string>
     <string name="folder_confirm_create">Create</string>
     <string name="folder_list_empty_headline">No folders here</string>

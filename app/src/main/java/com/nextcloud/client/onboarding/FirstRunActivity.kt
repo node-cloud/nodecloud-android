@@ -81,8 +81,8 @@ class FirstRunActivity : BaseActivity(), Injectable {
 
         registerActivityResult()
         setupLoginButton()
-        setupSignupButton(isProviderOrOwnInstallationVisible)
-        setupHostOwnServerTextView(isProviderOrOwnInstallationVisible)
+        //setupSignupButton(isProviderOrOwnInstallationVisible)
+        //setupHostOwnServerTextView(isProviderOrOwnInstallationVisible)
         deleteAccountAtFirstLaunch()
         setupFeaturesViewAdapter()
         handleOnBackPressed()
@@ -246,7 +246,7 @@ class FirstRunActivity : BaseActivity(), Injectable {
 
         val firstRun: Array<FeatureItem>
             get() = arrayOf(
-                FeatureItem(R.drawable.logo, R.string.first_run_1_text, R.string.empty, true, false),
+                FeatureItem(R.drawable.logo, R.string.first_run_1_text_new, R.string.empty, true, false),
                 FeatureItem(R.drawable.first_run_files, R.string.first_run_2_text, R.string.empty, true, false),
                 FeatureItem(R.drawable.first_run_groupware, R.string.first_run_3_text, R.string.empty, true, false),
                 FeatureItem(R.drawable.first_run_talk, R.string.first_run_4_text, R.string.empty, true, false)
