@@ -124,7 +124,7 @@
         android:theme="@style/Theme.ownCloud.Toolbar"
         android:usesCleartextTraffic="true"
         tools:ignore="UnusedAttribute"
-        tools:replace="android:allowBackup">
+        tools:replace="android:allowBackup|icon">
 
         <meta-data android:name="android.content.APP_RESTRICTIONS"
             android:resource="@xml/app_config" />
